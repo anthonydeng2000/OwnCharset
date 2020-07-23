@@ -1,3 +1,4 @@
+# coding=utf-8
 import pickle
 import os
 import sys
@@ -12,4 +13,4 @@ b = []
 #f1.close()
 c = dict(zip(a, b))
 pickle.dump(c, open("./chinese_labels", 'wb'))
-print(result)
+print("生成成功")
